@@ -3,13 +3,37 @@ html, body{
     margin: 0;
 }
 body{
-    background-image: linear-gradient(to right top #00aeff, #08d0f3, #00eeff, #00ffbf, #00ff80);
+    background-image: linear-gradient(to right top, #00aeff, #08d0f3, #00eeff, #00ffbf, #00ff80);
+	text-align: center;
 }
+.logo{
+	border-radius: 40px;
+	width: 80px;
+	margin-top: 30px;
+}
+.header img{
+	width: 100px;
+	margin-left: -15px;
+}
+.header{
+	color: white;
+	font-size: 45px;
+	margin-top: 80px;
+	letter-spacing: 10px;
+	font-style: italic;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login_div{
+	background-color: rgb(255, 255, 255);
+	float: none;
+	border-radius: 15px;
 
-login_button
+}
+#login_button
 
 {
 	width: 80%;border-radius: 15px;
+	background-color: #00ff80;
 }
 
 .room_name
